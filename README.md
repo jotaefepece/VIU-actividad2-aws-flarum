@@ -44,7 +44,7 @@ docs/evidencias/
 
 ---
 
-## 📘 Documentación
+## Documentación
 
 Cada tarea está documentada de forma independiente:
 
@@ -55,7 +55,7 @@ Cada tarea está documentada de forma independiente:
 
 ---
 
-## ✅ Estado actual
+## Estado actual
 
 * [x] Tarea A completada
 * [ ] Tarea B en progreso
