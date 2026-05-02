@@ -49,9 +49,17 @@ docs/evidencias/
 Cada tarea está documentada de forma independiente:
 
 * Tarea A: Creación de base de datos RDS
+[Tarea A - Base de datos RDS](docs/tareaA-rds.md)
+
 * Tarea B: Despliegue en Elastic Beanstalk
+[Tarea B - Despliegue en Elastic Beanstalk](docs/tareaB-beanstalk.md)
+
 * Tarea C: CI/CD con GitLab
+[Tarea C - CI/CD con GitLab](docs/tareaC-CICD.md)
+
 * Tarea D: Infraestructura con Terraform
+[Tarea D - Infraestructura con Terraform](docs/tareaD-terraform.md)
+
 
 ---
 
