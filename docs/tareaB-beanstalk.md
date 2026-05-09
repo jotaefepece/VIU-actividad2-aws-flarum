@@ -108,19 +108,22 @@ Con la configuración corregida, se completó exitosamente la instalación de Fl
 Durante el despliegue se presentaron los siguientes problemas:
 
 - Error de conexión a RDS
-Causa: base de datos no accesible públicamente
-Solución: habilitar acceso temporal para creación de la BD
+Causa: base de datos no accesible públicamente. 
+
+Solución: habilitar acceso temporal para creación de la BD.
 
 - Error de compatibilidad PHP
-Causa: uso de PHP 8.3 no soportado por Flarum
-Solución: downgrade a PHP 8.2
+Causa: uso de PHP 8.3 no soportado por Flarum. 
+
+Solución: downgrade a PHP 8.2.
 
 - Error de tablas existentes
-Causa: instalación fallida previa
-Solución: eliminar y recrear la base de datos
+Causa: instalación fallida previa. 
+
+Solución: eliminar y recrear la base de datos.
 
 
-**Resultado**
+**Resultados**
 
 La aplicación Flarum fue desplegada correctamente en AWS Elastic Beanstalk y conectada exitosamente a la base de datos en RDS.
 
