@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Desplegar la aplicación **Flarum** en AWS Elastic Beanstalk y conectarla con la base de datos MySQL previamente creada en RDS.
+Desplegar la aplicación Flarum en AWS Elastic Beanstalk y conectarla con la base de datos MySQL previamente creada en RDS.
 
 ---
 
@@ -33,7 +33,7 @@ La solución implementada consiste en:
 
 Se creó el entorno para desplegar la aplicación Flarum, definiendo el nombre del entorno y la configuración base.
 
-![Entorno Beanstalk](docs/evidencias/21-beanstalk-nombre-entorno.png)
+![Entorno Beanstalk](evidencias/21-beanstalk-nombre-entorno.png)
 
 ---
 
@@ -41,7 +41,7 @@ Se creó el entorno para desplegar la aplicación Flarum, definiendo el nombre d
 
 Durante la creación del entorno se seleccionaron los servicios necesarios para ejecutar la aplicación.
 
-![Servicios Beanstalk](docs/evidencias/22-beanstalk-servicios.png)
+![Servicios Beanstalk](evidencias/22-beanstalk-servicios.png)
 
 ---
 
@@ -49,7 +49,7 @@ Durante la creación del entorno se seleccionaron los servicios necesarios para 
 
 Se configuraron las subredes dentro de la VPC para permitir la comunicación con la base de datos en RDS.
 
-![Subredes](docs/evidencias/23-beanstalk-subredes.png)
+![Subredes](evidencias/23-beanstalk-subredes.png)
 
 ---
 
@@ -57,7 +57,7 @@ Se configuraron las subredes dentro de la VPC para permitir la comunicación con
 
 Una vez creado el entorno, se verificó su estado y configuración general.
 
-![Información entorno](docs/evidencias/24-beanstalk-información-entorno.png)
+![Información entorno](evidencias/24-beanstalk-información-entorno.png)
 
 ---
 
@@ -65,7 +65,7 @@ Una vez creado el entorno, se verificó su estado y configuración general.
 
 Se accedió a la URL proporcionada por Elastic Beanstalk, mostrando la pantalla inicial de instalación de Flarum.
 
-![Flarum inicial](docs/evidencias/25-vista-flarum-inicial-sobre-beanstalk.png)
+![Flarum inicial](evidencias/25-vista-flarum-inicial-sobre-beanstalk.png)
 
 ---
 
@@ -73,7 +73,7 @@ Se accedió a la URL proporcionada por Elastic Beanstalk, mostrando la pantalla 
 
 Para crear la base de datos, se habilitó temporalmente el acceso público a RDS y se realizó conexión desde terminal.
 
-![Acceso a DB](docs/evidencias/26-accediendo-a-db-terminal-abierto-acceso-momentaneo.png)
+![Acceso a DB](evidencias/26-accediendo-a-db-terminal-abierto-acceso-momentaneo.png)
 
 ---
 
@@ -81,25 +81,23 @@ Para crear la base de datos, se habilitó temporalmente el acceso público a RDS
 
 Se creó manualmente la base de datos requerida por Flarum:
 
-```sql
-CREATE DATABASE DB_flarum
-CHARACTER SET utf8mb4
-COLLATE utf8mb4_unicode_ci;```
+![DB Flarum](evidencias/27-creando-DB_Flarum-desde-terminal.png)
 
-![DB Flarum](docs/evidencias/27-creando-DB_Flarum-desde-terminal.png)
-
+---
 
 ### 8. Ajuste de versión de PHP
 
 Durante la instalación se presentó un error de compatibilidad con PHP 8.3, por lo que se cambió la versión del entorno a PHP 8.2.
 
-![Ajuste PHP](docs/evidencias/28-bajando-version-PHP83-a-PHP82.png)
+![Ajuste PHP](evidencias/28-bajando-version-PHP83-a-PHP82.png)
+
+---
 
 ### 9. Instalación final de Flarum
 
 Con la configuración corregida, se completó exitosamente la instalación de Flarum.
 
-![Flarum Operativo](docs/evidencias/29-flarum-operativo-en-foro.png)
+![Flarum Operativo](evidencias/29-flarum-operativo-en-foro.png)
 
 
 ---
