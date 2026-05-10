@@ -12,7 +12,7 @@ El objetivo principal es desplegar la aplicación web Flarum utilizando servicio
 
 ```
 .
-├── app/                # Aplicación Flarum para tarea B
+├── flarum-zip/                # Aplicación Flarum para tarea B
 ├── docs/               # Documentación por tareas
 │   ├── evidencias/     # Capturas del proceso
 │   ├── tareaA-rds.md
@@ -67,8 +67,8 @@ Cada tarea está documentada de forma independiente:
 
 * [x] Tarea A completada
 * [x] Tarea B completada
-* [ ] Tarea C pendiente
-* [ ] Tarea D pendiente
+* [x] Tarea C completada
+* [x] Tarea D completada
 
 ---
 
